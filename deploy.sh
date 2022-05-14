@@ -8,7 +8,7 @@ git pull
 
 echo "ready to commit, your comment is: "  
 read comment
-echo "coment is:\n $comment"
+echo "coment is:  $comment"
 
 git add -A .
 
