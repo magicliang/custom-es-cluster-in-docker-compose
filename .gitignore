@@ -70,3 +70,5 @@ gradle-app.setting
 out/
 
 .jpb/
+
+**/data
