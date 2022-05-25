@@ -182,6 +182,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 120
+# 动态可伸缩不可行、静态伸缩带来的启动时间复杂度很高，加上 es04 以后启动时间会慢 200ms 以上
+
   # es04:
   #   depends_on:
   #     - es03
